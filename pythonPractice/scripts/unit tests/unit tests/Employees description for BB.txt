@@ -1,0 +1,5 @@
+Class Employee tests two methods namely test_give_ default_raise() and test_give_custom_raise() 
+for various validity checks.
+
+Uses setUp() method to create one Employee instance method to use in each test method.
+

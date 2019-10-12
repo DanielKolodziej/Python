@@ -1,0 +1,1 @@
+def moveTower(num,from_peg, to_peg, temp_peg):    if num > 0:        moveTower(num-1,from_peg,temp_peg,to_peg)        print("moving disk from",from_peg,"to",to_peg)        moveTower(num-1,temp_peg,to_peg,from_peg)moveTower(3,"1","2","3")

@@ -1,0 +1,1 @@
+def gcd(x,y):    if x%y==0:        return y    else:        return gcd(x,x%y)    print(gcd(13,2))
